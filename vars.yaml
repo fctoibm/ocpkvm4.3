@@ -61,8 +61,8 @@ v_rhcos_initramfs: "https://mirror.openshift.com/pub/openshift-v4/dependencies/r
 v_rhcos_install_kernel: "https://mirror.openshift.com/pub/openshift-v4/dependencies/rhcos/latest/latest/rhcos-{{openshift_build}}.0-x86_64-installer-kernel"
 
 # OCP Installer
-v_ocp_client: "https://mirror.openshift.com/pub/openshift-v4/clients/ocp/latest/openshift-client-linux-{{openshift_build}}.0.tar.gz"
-v_ocp_installer: "https://mirror.openshift.com/pub/openshift-v4/clients/ocp/latest/openshift-install-linux-{{openshift_build}}.0.tar.gz"
+v_ocp_client: "https://mirror.openshift.com/pub/openshift-v4/clients/ocp/latest/openshift-client-linux-{{openshift_build}}.1.tar.gz"
+v_ocp_installer: "https://mirror.openshift.com/pub/openshift-v4/clients/ocp/latest/openshift-install-linux-{{openshift_build}}.1.tar.gz"
 
 
 
