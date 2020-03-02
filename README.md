@@ -253,7 +253,7 @@ Update IP tables on KVM Host to access OpenShift URL
 
 On KVM Host run the following commands:
 ```
-iptables-saves < /root/savedrules.txt
+iptables-save > /root/savedrules.txt
 iptables -I FORWARD -o openshift4 -d  <HELPER_NODE_IP> -j ACCEPT
 iptables -t nat -I PREROUTING -p tcp --dport 443 -j DNAT --to <HELPER_NODE_IP>:443
 ```
